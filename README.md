@@ -7,10 +7,16 @@ The player needs to guess the word within 6 tries, while guessing the system wil
 If the player guesses the correct word, the player wins. If the player fails to guess, the player loses.
 
 Game Interface
+
+
 ![Interface](https://user-images.githubusercontent.com/127413800/224049424-d46bac00-f359-4c9e-9021-1c745e66401b.png)
 
 Win Interface
+
+
 ![WIN](https://user-images.githubusercontent.com/127413800/224049748-50727177-4221-4ca5-a0f0-0bbc9c56c258.png)
 
 Lose Interface
+
+
 ![LOSE](https://user-images.githubusercontent.com/127413800/224049745-185ff38b-98a1-4ea4-a1f6-de9a48991f64.png)
