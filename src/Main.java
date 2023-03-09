@@ -3,6 +3,23 @@ import java.util.Scanner;
 
 public class Main {
 
+	static int check(String Goal, String Guess) {
+		int corr = 0;
+		for(int j = 0; j < 5; j++) {				
+			boolean x = Goal.contains(String.valueOf(Guess.charAt(j)));
+			boolean y = String.valueOf(Goal.charAt(j)).contains(String.valueOf(Guess.charAt(j)));
+			if(x == true && y == false) {
+				System.out.print("Y");
+			}else if(x == true && y == true) {
+				System.out.print("G");
+				corr++;
+			}else {
+				System.out.print("X");
+			}
+		}
+		return corr;
+	}
+	
 	public static void main(String[] args) {
 		String[] Words = {"OTHER", "ABOUT", "WHICH", "THEIR", "EVERY", "FAITH", "LUNCH", "MAYBE", "DRESS", "BIKES", "FRUIT", "CHOKE", "SPIKY", "MILKY", "GRADE"};
 		Random rand = new Random();
@@ -24,19 +41,7 @@ public class Main {
 //			String Guess = String.valueOf(sc.next().charAt(0));
 			if(Guess.length()==5) {				
 				counter++;
-				int corr = 0;
-				for(int j = 0; j < 5; j++) {				
-					boolean x = Words[idx].contains(String.valueOf(Guess.charAt(j)));
-					boolean y = String.valueOf(Words[idx].charAt(j)).contains(String.valueOf(Guess.charAt(j)));
-					if(x == true && y == false) {
-						System.out.print("Y");
-					}else if(x == true && y == true) {
-						System.out.print("G");
-						corr++;
-					}else {
-						System.out.print("X");
-					}
-				}
+				int corr = check(Words[idx], Guess);
 				System.out.println("\n==================================");
 				if(corr == 5) {
 					System.out.println("==[ YOU WON, Congratulations!! ]==");
