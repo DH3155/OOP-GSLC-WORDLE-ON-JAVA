@@ -5,3 +5,5 @@ For this GSLC assignment I decided to recreate this game into a simple java prog
 This program will pick a random number from 0 - 15 (the number of words currently implemented in the system) and choose the word within an array to be guessed by the player
 The player needs to guess the word within 6 tries, while guessing the system will give the player some indicators such as G, Y, and X.
 If the player guesses the correct word, the player wins. If the player fails to guess, the player loses.
+
+![alt text](https://github.com/DH3155/OOP-GSLC-WORDLE-ON-JAVA/GSLC 1 PICS/Interface.png)
