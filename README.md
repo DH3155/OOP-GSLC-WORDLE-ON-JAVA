@@ -6,4 +6,4 @@ This program will pick a random number from 0 - 15 (the number of words currentl
 The player needs to guess the word within 6 tries, while guessing the system will give the player some indicators such as G, Y, and X.
 If the player guesses the correct word, the player wins. If the player fails to guess, the player loses.
 
-![alt text](https://github.com/DH3155/OOP-GSLC-WORDLE-ON-JAVA/GSLC 1 PICS/Interface.png)
+![alt text](https://github.com/DH3155/OOP-GSLC-WORDLE-ON-JAVA/blob/GSLC%201%20PICS/Interface.png?raw=true)
