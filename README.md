@@ -12,15 +12,14 @@ Game Interface
 ![Interface](https://user-images.githubusercontent.com/127413800/224049424-d46bac00-f359-4c9e-9021-1c745e66401b.png)
 
 
-
 Win Interface
 
 
-![WIN](https://user-images.githubusercontent.com/127413800/224049748-50727177-4221-4ca5-a0f0-0bbc9c56c258.png)
+![WIN](https://user-images.githubusercontent.com/127413800/224052442-bf882d3d-7d86-4580-b0df-1ae86599abd4.png)
 
 
 
 Lose Interface
 
 
-![LOSE](https://user-images.githubusercontent.com/127413800/224049745-185ff38b-98a1-4ea4-a1f6-de9a48991f64.png)
+![LOSE](https://user-images.githubusercontent.com/127413800/224052430-e19c2b4c-2278-462f-8bda-f71d3f9ea3f8.png)
