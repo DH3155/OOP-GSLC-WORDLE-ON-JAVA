@@ -23,3 +23,9 @@ Lose Interface
 
 
 ![LOSE](https://user-images.githubusercontent.com/127413800/224052430-e19c2b4c-2278-462f-8bda-f71d3f9ea3f8.png)
+
+# Array Usage
+Array is used to store the words, in this case there are 15 words that is stored, so the index is between 0 - 14
+
+# Method usage
+Method is used to count how many correct words in the correct position, example if there is 5 it will output 5 hence the word is correct.
